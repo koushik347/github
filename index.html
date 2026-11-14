@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Koushik Reddy — aspiring DevOps and Cloud professional">
+  <title>Koushik Reddy | DevOps & Cloud Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="#home">Reddy<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <span class="eyebrow"><span class="status-dot"></span> Open to entry-level IT opportunities</span>
+        <h1>Hi, I'm Koushik<br><span>Reddy.</span></h1>
+        <p class="lead">Aspiring DevOps &amp; Cloud professional with a Computer Science background and 6 months of customer service experience at TTEC. I enjoy solving problems and building practical skills in cloud, Linux, and automation.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Let's connect</a>
+          <a class="button button-secondary" href="#projects">Explore projects</a>
+        </div>
+      </div>
+      <div class="terminal" aria-label="Terminal-style introduction">
+        <div class="terminal-bar"><i></i><i></i><i></i></div>
+        <div class="terminal-content">
+          <p><b>$</b> whoami</p><p class="terminal-blue">Koushik Reddy</p>
+          <p><b>$</b> focus --current</p><p>DevOps · Cloud · Linux</p>
+          <p><b>$</b> learning</p><p>Docker · AWS · CI/CD</p>
+          <p><b>$</b> status</p><p class="terminal-blue">Building. Practicing. Improving.</p>
+          <p><b>$</b> <span class="cursor">_</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><span class="kicker">About me</span><h2>Curious about technology. Focused on growth.</h2></div>
+      <div class="about-grid">
+        <article class="card">
+          <p>I graduated with a B.Tech in Computer Science and Engineering (Data Science) from Annamacharya Institute of Technology and Sciences. I currently work as a Customer Service Representative at TTEC, handling customer concerns, following support processes, documenting cases, and communicating resolutions.</p>
+          <p>Alongside my role, I am developing IT skills through practical learning in Linux, Git, AWS, Docker, and CI/CD. I am looking for an opportunity to begin my IT career and grow in a DevOps, cloud support, or related technical role.</p>
+        </article>
+        <div class="facts-grid">
+          <div class="fact"><strong>6 months</strong><span>Experience at TTEC</span></div>
+          <div class="fact"><strong>8.5 CGPA</strong><span>B.Tech — CSE (DS)</span></div>
+          <div class="fact"><strong>Python &amp; SQL</strong><span>Programming foundation</span></div>
+          <div class="fact"><strong>DevOps</strong><span>Current learning focus</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading"><span class="kicker">Technical toolkit</span><h2>Skills I'm building and using</h2><p class="section-description">DevOps and cloud items are listed as learning/practice areas, not professional production experience.</p></div>
+      <div class="skills-grid">
+        <article class="card"><h3>DevOps &amp; Cloud</h3><div class="tags"><span>Linux</span><span>Git</span><span>GitHub</span><span>AWS EC2</span><span>Docker</span><span>Jenkins basics</span><span>CI/CD concepts</span></div></article>
+        <article class="card"><h3>Programming</h3><div class="tags"><span>Python</span><span>SQL</span><span>Java — learning</span></div></article>
+        <article class="card"><h3>Data &amp; Analytics</h3><div class="tags"><span>Power BI</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Scikit-learn</span></div></article>
+        <article class="card"><h3>Web Development</h3><div class="tags"><span>React.js</span><span>Node.js</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+      </div>
+    </section>
+
+    <section class="section container" id="experience">
+      <div class="section-heading"><span class="kicker">Experience</span><h2>My professional journey</h2></div>
+      <div class="card timeline">
+        <article class="timeline-item">
+          <h3>Customer Service Representative · TTEC</h3><span class="meta">May 2026 – Present · 6 months</span>
+          <ul>
+            <li>Assist customers with e-commerce-related queries while following established workflows and service guidelines.</li>
+            <li>Investigate customer concerns, communicate resolutions, and maintain accurate case documentation.</li>
+            <li>Identify cases requiring additional support and route them through the appropriate escalation process.</li>
+            <li>Strengthen transferable skills in troubleshooting, issue analysis, time management, and communication.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <h3>Data Science Intern · Indo-Euro Synchronization</h3><span class="meta">February 2024</span>
+          <ul>
+            <li>Built a Titanic survival prediction model using Python, Pandas, and Matplotlib.</li>
+            <li>Worked on data preprocessing and machine-learning workflows; reported a 25% reduction in model training time.</li>
+            <li>Analyzed Netflix recommendation datasets to identify user-behavior trends and insights.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><span class="kicker">Selected projects</span><h2>Things I've worked on</h2><p class="section-description">Add repository links once you publish the source code on GitHub.</p></div>
+      <div class="projects-grid">
+        <article class="card project-card"><div class="project-icon">✉</div><span class="project-type">Machine Learning</span><h3>Email Fraud Detection System</h3><p>A text-classification project to identify potentially fraudulent emails using machine-learning approaches.</p><div class="tags"><span>Python</span><span>TF-IDF</span><span>Naive Bayes</span><span>Logistic Regression</span></div><p class="project-note">Included text preprocessing, EDA, feature engineering, and model comparison.</p></article>
+        <article class="card project-card"><div class="project-icon">⌘</div><span class="project-type">Web Development</span><h3>Chatbot Web Application</h3><p>A responsive chatbot interface that processes user input and returns responses through rule-based conversational logic.</p><div class="tags"><span>React.js</span><span>JavaScript</span><span>UI Components</span></div><p class="project-note">Focused on reusable components, real-time message handling, and input validation.</p></article>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <div class="section-heading"><span class="kicker">Education &amp; certifications</span><h2>Learning foundation</h2></div>
+      <div class="education-grid">
+        <article class="card"><h3>B.Tech — CSE (Data Science)</h3><p>Annamacharya Institute of Technology and Sciences<br>2022–2026 · CGPA: 8.5</p></article>
+        <article class="card"><h3>Intermediate — MPC</h3><p>Sri Chaitanya Junior College<br>2022 · 81%</p></article>
+        <article class="card"><h3>SSC</h3><p>Sri Chaitanya E.M. High School<br>2020 · 98%</p></article>
+        <article class="card"><h3>Certifications</h3><p>Python Programming — Udemy<br>Power BI — Sri Vensy Technologies</p></article>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="section-heading"><span class="kicker">Contact</span><h2>Let's talk about opportunities</h2><p class="section-description">Interested in entry-level DevOps, cloud support, and IT opportunities where I can learn and contribute.</p></div>
+      <div class="contact-grid">
+        <article class="card"><h3>Get in touch</h3>
+          <a class="contact-link" href="mailto:koushikpagidipalli06@gmail.com">✉ koushikpagidipalli06@gmail.com</a>
+          <a class="contact-link" href="tel:+917013730207">☎ +91 70137 30207</a>
+          <a class="contact-link" href="https://www.linkedin.com/in/koushik-reddy-p" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a>
+        </article>
+        <article class="card"><h3>Current career goal</h3><p>Transition into an IT role by combining my computer science foundation, hands-on technical learning, and customer-facing experience.</p><div class="tags"><span>Junior DevOps</span><span>Cloud Support</span><span>IT Support</span></div></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Koushik Reddy · Built with HTML, CSS &amp; JavaScript</footer>
+  <script src="script.js"></script>
+</body>
+</html>
